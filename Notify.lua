@@ -31,10 +31,10 @@ local function Notify(message, notificatonType, length)
     }))
 end
 
-RegisterNetEvent('DoLongHudText', function(notificatonType, length, message)
+RegisterNetEvent('DoLongHudText', function(message, notificatonType, length)
 
 
-    Notify(notificatonType, length, message)
+    Notify(message, notificatonType, length)
 
 
 
